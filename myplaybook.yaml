@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - tes
+#############################3
+- names:  first docker install task from role galaxy
+  hosts: all
+  become: true
+  roles:
+    - iam-surya369.java-jenkins-docker
