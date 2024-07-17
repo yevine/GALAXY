@@ -25,3 +25,6 @@ ansible -i /home/emmalinux/Desktop/CI_CD/ansible/inventory.ini -m shell -a "sudo
 ansible -i /home/emmalinux/Desktop/CI_CD/ansible/inventory.ini -m shell -a "sudo apt-get remove --purge -y openjdk-17-jdk && sudo apt-get autoremove -y && sudo apt-get clean" all
 
 ansible-playbook -i inventory.ini myplaybook.yaml
+
+ ansible-playbook -i inventory.ini docplaybook.yml 
+ ansible-galaxy role install iam-surya369.java-jenkins-docker
