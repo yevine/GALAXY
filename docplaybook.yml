@@ -3,4 +3,4 @@
   hosts: all
   become: true
   roles:
-    - iam-surya369.java-jenkins-docker
+    - mygalrole

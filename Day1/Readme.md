@@ -28,3 +28,4 @@ ansible-playbook -i inventory.ini myplaybook.yaml
 
  ansible-playbook -i inventory.ini docplaybook.yml 
  ansible-galaxy role install iam-surya369.java-jenkins-docker
+  ansible-galaxy import 
